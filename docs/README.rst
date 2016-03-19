@@ -5,9 +5,9 @@ Face++ Cli
 Table of Contents
 
 - `Features`_
-- `Architecture`_
+- `Getting Started`_
 - `Development`_
 
-.. _`Features`: ./features.rst
-.. _`Architecture`: ./architecture.rst
-.. _`Development`: ./development.rst 
+- _`Features`: ./features.rst
+- _`Getting Started`: ./getting_started.rst
+- _`Development`: ./development.rst
