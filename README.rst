@@ -52,9 +52,23 @@ Step 2. App
 ~~~~~~~~~~~~~~~~~~
 
 Go to the dashboard, create a new app, and then find out the ``API_KEY`` and ``API_SECRET``.
+For the details, please reference the official instruction: `Getting Started`_.
 
-Step 3.1. API Call: cli
+.. _`Getting Started`: http://www.faceplusplus.com/create-a-new-app/
+
+
+Step 3. API Call
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3 main methods are available:
+
+- ``cli``: command line
+- ``demo``: python script
+- ``faceapi``: customization to your personal app
+
+---------------------------
+API Call: cli
+---------------------------
 
 Try the command line:
 
@@ -86,9 +100,9 @@ Command Line:
 
     api.detection.detect(img = File(r'<path to the image file>'))
 
-
-Step 3.2. API Call: scripting
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
+API Call: scripting
+----------------------------
 
 Try the scripting:
 
@@ -112,9 +126,9 @@ Try the scripting:
     # run hello.py
     $ python hello.py
 
-
-Step 3.2. API Call: writing your app
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------
+API Call: writing your app
+----------------------------------
 
 customize to anywhere:
 
@@ -140,3 +154,11 @@ Python Call
 
     from faceapi.facepp import API
     api = API(API_KEY, API_SECRET)
+
+-------------------------
+Face++ API
+-------------------------
+
+- `Face++ API docs`_
+
+.. _`Face++ API docs`: http://www.faceplusplus.com/api-overview/
