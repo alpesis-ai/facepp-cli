@@ -1,0 +1,7 @@
+# project files
+cli/apikey.cfg
+
+# system files
+.DS_Store
+*.pyc
+*.swp
