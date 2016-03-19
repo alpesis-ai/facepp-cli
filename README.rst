@@ -1,5 +1,5 @@
 #######################################
-Face++ Cli
+Face++ CLI
 #######################################
 
 This is an interactive Face++ command line tool which is used to call the Face++ API.
