@@ -159,6 +159,8 @@ Python Call
 Face++ API
 -------------------------
 
+- `facepp-python-sdk`_
 - `Face++ API docs`_
 
+.. _`facepp-python-sdk`: https://github.com/FacePlusPlus/facepp-python-sdk
 .. _`Face++ API docs`: http://www.faceplusplus.com/api-overview/
